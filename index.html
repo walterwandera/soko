@@ -1,0 +1,500 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home</title>
+  <link rel="stylesheet" href="css/bootstrap.css" />
+  <link rel="stylesheet" href="walt.css" />
+  <link rel="stylesheet" href="js/bootstrap.js" />
+  <script src="js/bootstrap.js"></script>
+  <style>
+    h2 {
+      color: rgb(37, 102, 155);
+    }
+
+    p {
+      color: beige;
+    }
+
+    h5 {
+      color: aquamarine;
+    }
+
+    b {
+      color: aquamarine;
+    }
+
+    nav:hover {
+      background-color: aqua;
+    }
+  </style>
+</head>
+
+<body class="body">
+  <div class="container-fluid">
+    <!-- Section one start -->
+    <section>
+      <nav class="navbar navbar-expand-lg navbar-brand bg-dark hover">
+        <a href="index.html" class="navbar-brand bg-info text-light">WALT MOVIES</a>
+        <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse text-light" id="navbarCollapse">
+          <div class="navbar-nav w-100">
+            <a href="index.html" class="nav-link active text-light">Home</a>
+            <a href="movies.html" class="nav-link text-light">Movies</a>
+            <a href="country.html" class="nav-link text-light">Country</a>
+            <a href="top imdb.html" class="nav-link text-light">Top IMDB</a>
+            <a href="tvseries.html" class="nav-link text-light">TV series</a>
+            <a href="categories.html" class="nav-link text-light">Categories</a>
+            <button type="button" class="btn btn-primary ms-auto" data-bs-toggle="modal" data-bs-target="#exampleModal">
+              Log in
+            </button>
+
+            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+              aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                  <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">
+                      Modal title
+                    </h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                  </div>
+                  <div class="modal-body">
+                    <form action="">
+                      <div class="form-group mb-3">
+                        <input type="email" name="" id="" placeholder="Enter Email" class="form-control" />
+                      </div>
+                      <div class="form-group mb-3">
+                        <input type="password" name="id" placeholder="Enter Password" class="form-control" />
+                      </div>
+                    </form>
+                  </div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                      Close
+                    </button>
+                    <button type="button" class="btn btn-primary">
+                      log in
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+    </section>
+    <!-- Section one end -->
+
+    <!-- Section two start -->
+    <section class="row">
+      <div class="col-md-12">
+        <div class="carousel slide" id="myCarousel1" data-bs-ride="carousel">
+          <!-- Wrapper for carousel items-->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="images/killers-of-the-flower-moon-1630855942.jpg" alt="slide 4" class="d-block w-100" />
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/oppenheimer-1630855498.jpg" alt="slide 4" class="d-block w-100" />
+            </div>
+
+            <div class="carousel-item">
+              <img src="images/the-last-voyage-of-the-demeter-1630855610.jpg" alt="slide 4" class="d-block w-100" />
+            </div>
+          </div>
+          <!-- Carousel controls -->
+          <a href="#myCarousel1" class="carousel-control-prev" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+
+          <a href="#myCarousel1" class="carousel-control-next" data-bs-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        </div>
+      </div>
+    </section>
+    <!-- Section two end-->
+
+    <!-- Row start -->
+    <section class="row mb-5">
+      <h2>TOP RATED</h2>
+      <div class="col-md-3 text-center">
+        <img style="width: 200px; height: 200px" src="images/the-beekeeper-1630856389.jpg" alt=""
+          class="object-fit-cover" />
+        <h5>The Bee Keeper</h5>
+        <p class="text-warning text-25">Action,Thriller,Comedy</p>
+        <b class="text-danger">COMING SOON</b>
+      </div>
+      <div class="col-md-3 text-center">
+        <img style="width: 200px; height: 200px" src="images/the-marvels-1630856042.jpg" alt=""
+          class="object-fit-cover" />
+
+        <h5 class="text-center">The Marvels</h5>
+        <p class="text-warning text-15">Thriller ,action</p>
+        <b class="text-danger">2019</b>
+      </div>
+
+      <div class="col-md-3 text-center">
+        <img style="width: 200px; height: 200px" src="images/judas-and-the-black-messiah-102113.jpg" alt=""
+          class="object-fit-cover" />
+        <h5 class="text-center">Judas And the Black Messiah</h5>
+        <p class="text-warning text-15">Comedy, Horror</p>
+
+        <b class="text-danger">2022</b><br /><br />
+      </div>
+
+      <div class="col-md-3 text-center">
+        <img style="width: 200px; height: 200px" src="images/rebel-moon-part-one-a-child-of-fire-1630856289.jpg" alt=""
+          class="object-fit-cover" />
+        <h5>Rebel Moon-A child of Fire</h5>
+        <p class="text-warning text-15">Adventure,Action,Thriller</p>
+        <b class="text-danger">2023</b><br /><br />
+      </div>
+    </section>
+    <hr />
+    <!-- Row end -->
+    <section class="row">
+      <!-- Row start -->
+      <section class="row mb-5">
+        <h2>WATCH NOW</h2>
+        <div class="col-md-6">
+          <img style="width: 600px" src="images/oppenheimer-1630855498.jpg" alt="" class="object-fit-cover" />
+        </div>
+        <div class="col-md-6">
+          <img style="width: 100%" src="images/killers-of-the-flower-moon-1630855942.jpg" alt="" />
+        </div>
+      </section>
+      <hr />
+      <!-- Row end -->
+
+      <!-- Row start -->
+      <section class="row mb-5">
+        <h2>LATEST</h2>
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px"
+            src="images/the-hunger-games-the-ballad-of-songbirds-snakes-1630856098.jpg" alt=""
+            class="object-fit-cover" />
+          <h5 class="text-center">
+            The Hunger Games-The Ballad Of Sonngbirds
+          </h5>
+          <p class="text-warning text-25">Action,Thriller,Comedy</p>
+          <b class="text-danger">OUT NOW</b>
+        </div>
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/power-book-iii-raising-kanan-season-3-1630856172.jpg"
+            alt="" class="object-fit-cover" />
+
+          <h5 class="text-center">Power Book III -Raising Kannan S3</h5>
+          <p class="text-warning text-15">Thriller ,Action</p>
+          <b class="text-danger">2017</b>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/the-killer-1630855984.jpg" alt=""
+            class="object-fit-cover image-container" />
+          <h5 class="text-center">The Killer</h5>
+          <p class="text-warning text-15">Comedy, Horror,Crime</p>
+
+          <b class="text-danger">2021</b><br /><br />
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/anyone-but-you-1630856291.jpg" alt=""
+            class="object-fit-cover" />
+          <h5 class="text-center">Anyone But You</h5>
+          <p class="text-warning text-15">Romance,Action,Thriller</p>
+          <b class="text-danger">2023</b><br /><br />
+        </div>
+      </section>
+      <hr />
+      <!-- Row end -->
+
+      <!-- Row start -->
+      <b> <i>IN CINEMAS</i></b>
+      <section class="card">
+        <div class="card image-box">
+          <div class="image-box ">
+            <img src="images/killers-of-the-flower-moon-1630855942.jpg" alt="" class="card" />
+          </div>
+          <div class="content">
+            <h2>Killers Of Flower Moon</h2>
+            <br />
+            <b class="bg-warning">John Cena</b>
+            <p>
+              Streaming as from 20th January <br />get thrilled this summer
+              <br /><b class="text-info">ONLY IN CINEMAS</b>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Row end -->
+
+      <!-- Row start -->
+      <section class="card image-box">
+        <div class="card">
+          <div class="image-box">
+            <img src="images/the-underdoggs-1630856494.webp" alt="" class="card" />
+          </div>
+          <div class="content">
+            <h2>The Underdoggs</h2>
+            <br />
+            <b class="bg-warning">snoop doggy doggy</b>
+            <p>
+              Streaming as from 20th January <br />get thrilled this summer
+              <br /><b class="text-info">ONLY IN CINEMAS</b>
+            </p>
+          </div>
+        </div>
+      </section>
+      <!-- Row end -->
+
+      <!-- Row start -->
+      <section class="card image-container">
+        <div class="card">
+          <div class="image-box">
+            <img src="images/oppenheimer-1630855498.jpg" alt="" class="card" />
+          </div>
+          <div class="content">
+            <h2>Openheimer</h2>
+            <br />
+            <b class="bg-warning">Thomas Shelby</b>
+            <p>
+              Streaming as from 20th January <br />get thrilled this summer
+              <br /><b class="text-info">ONLY IN CINEMAS</b>
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr />
+      <!-- Row end -->
+
+      <!-- Row start -->
+      <section class="row mb-5 object-fit-cover">
+        <h2 class="">MUST WATCH</h2>
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp8872782.jpg" alt="" class="object-fit-cover" />
+          <h5>Zack Snyder</h5>
+          <b class="text-center">BATMAN</b>
+          <p class="text-warning text-25">Action,Thriller,Comedy</p>
+          <b class="text-danger bg-warning">COMING SOON</b>
+        </div>
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp2144072.jpg" alt="" class="object-fit-cover" />
+
+          <h5 class="text-center">Narcos</h5>
+          <b class="text-center">PABLO ESCOBAR</b>
+          <p class="text-warning text-15">Thriller ,action,crime,Drugs</p>
+          <b class="text-danger bg-warning">2018</b>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp8484140.jpg" alt="" class="object-fit-cover" />
+          <h5 class="text-center">Aquaman</h5>
+          <b class="text-center">JASON MAMOA</b>
+          <p class="text-warning text-15">Comedy, Horror</p>
+
+          <b class="text-danger bg-warning">2022</b><br /><br />
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp4887401.jpg" alt="" class="object-fit-cover" />
+          <h5>How to Sell Drugs Online</h5>
+          <b class="text-center">NETFLIX</b>
+          <p class="text-warning text-15">Adventure,Action,Thriller</p>
+          <b class="text-danger bg-warning">2023</b><br /><br />
+        </div>
+      </section>
+      <hr />
+      <!-- Row end -->
+
+      <!-- Row start -->
+      <section class="row mb-5 object-fit-cover">
+        <h2 class="">TRENDING NOW</h2>
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp8872702.jpg" alt="" class="object-fit-cover" />
+          <h5>Enola Holmes</h5>
+          <b class="text-center">MILLIE BOBBIE BROWN</b>
+          <p class="text-warning text-25">Action,Thriller,Comedy,Adventure</p>
+          <b class="text-danger bg-warning">2019</b>
+        </div>
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp8872745.jpg" alt="" class="object-fit-cover" />
+
+          <h5 class="text-center">Captain Marvel</h5>
+          <b class="text-center">BRIE LARSON</b>
+          <p class="text-warning text-15">Thriller ,action,Adventure</p>
+          <b class="text-danger bg-warning">2015</b>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/belgravia-the-next-chapter-season-1-1630856465.jpg"
+            alt="" class="object-fit-cover" />
+          <h5 class="text-center">Belgaria-Next Chapter</h5>
+          <b class="text-center">PRINCE EDWARD</b>
+          <p class="text-warning text-15">Comedy, Horror</p>
+
+          <b class="text-danger bg-warning">2022</b><br /><br />
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp8249017.jpg" alt="" class="object-fit-cover" />
+          <h5>Suicide Squad</h5>
+          <b class="text-center">IDRIS ELBA AND JOHN CENA</b>
+          <p class="text-warning text-15">Adventure,Action,Thriller</p>
+          <b class="text-danger bg-warning">2021</b><br /><br />
+        </div>
+      </section>
+      <hr />
+      <!-- Row end -->
+
+      <!-- Row start -->
+      <section class="row mb-5 object-fit-cover">
+        <h2 class="">TRENDING NOW</h2>
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/a-real-bug-s-life-season-1-1630856500.jpg" alt=""
+            class="object-fit-cover" />
+          <h5>A BUGS LIFE</h5>
+          <b class="text-center">MILLIE BOBBIE</b>
+          <p class="text-warning text-25">Action,Thriller,Comedy,Adventure</p>
+          <b class="text-danger bg-warning">2019</b>
+        </div>
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp8116312.jpg" alt="" class="object-fit-cover" />
+
+          <h5 class="text-center">The Witch</h5>
+          <b class="text-center">KIM KARDASHIAN</b>
+          <p class="text-warning text-15">Thriller ,action,Adventure</p>
+          <b class="text-danger bg-warning">1997</b>
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp8592139.jpg" alt="" class="object-fit-cover" />
+          <h5 class="text-center">Mortal Kombat</h5>
+          <b class="text-center">JAPANEESE</b>
+          <p class="text-warning text-15">Comedy,Action,Sci-Fi</p>
+
+          <b class="text-danger bg-warning">2021</b><br /><br />
+        </div>
+
+        <div class="col-md-3 text-center">
+          <img style="width: 200px; height: 200px" src="images/wp8116244.jpg" alt="" class="object-fit-cover" />
+          <h5>Thor Love and Thunder</h5>
+          <b class="text-center">CHRIS HEMSWORTH</b>
+          <p class="text-warning text-15">Adventure,Action,Thriller</p>
+          <b class="text-danger bg-warning">2021</b><br /><br />
+        </div>
+      </section>
+      <hr />
+      <!-- Row end -->
+
+      <h2><i><u>FAQ</i></u></h2>
+      <!-- Accordion start -->
+      <section class="bg-dark text">
+        <div class="accordion" id="accordionExample card body">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
+                aria-expanded="true" aria-controls="collapseOne">
+                1.How do I contact Customer care
+              </button>
+            </h2>
+            <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>FOLLOW US ON SOCIAL MEDIA PLATFORMS.</strong> <br>
+                <code>WALT_MOVIES</code><br>
+                You can find us on any social media platform <br><i><u>@walt_movies</u></i>
+
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item body">
+            <h2 class="accordion-header" id="headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                2.How do I navigate the site
+              </button>
+            </h2>
+            <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>NAVIGATION</strong> <br>
+                <code>WALT_MOVIES</code><br>use either the navigation bars ,the header orthe sidebar
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                3. When is the next update of the site
+              </button>
+            </h2>
+            <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample">
+              <div class="accordion-body">
+                <strong>UPDATES</strong><br>
+                <code>WALT_MOVIES</code><br>
+                we are working on an update and we will inform you when the updates are done . Thank you for visiting
+                </p>
+                , though the transition does limit
+                overflow.
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Accordion end -->
+
+      <!-- Row start -->
+      <section class="row text-light p-5 m-b-0 section text">
+        <div class="col-md-4 text-light">
+          <h3>About us</h3>
+          <p>DONT MISS OUT</p>
+          <p>
+            This website aims at making the users forget that they are sitting
+            in a theatre.Its not only about films but also feelings
+          </p>
+        </div>
+
+        <div class="col-md-4">
+          <form action="">
+            <label for="" class="text-light">
+              <h3>Contact us</h3>
+            </label><br /><br />
+            <input class="" type="email" name="" id="" placeholder="Enter Email" /><br /><br />
+            <textarea class="" name="" id="" cols="30" rows="6" placeholder="Leave a comment"></textarea>
+            <button type="submit" class="btn bg-info text-light">
+              Send Message
+            </button>
+          </form>
+        </div>
+
+        <div class="col-md-4">
+          <h3 class="text-light">Stay connected</h3>
+          <img src="images/fb.png" alt="facebook" />
+          <img src="images/in.png" alt="instagram" />
+          <img src="images/x.png" alt="twitter" />
+
+          <p class="text-light mt-5">
+            TV-shows are chewing gum for the eyes ,every great film should
+            seem new every time you see it
+          </p>
+        </div>
+      </section>
+      <!-- Row end -->
+
+      <div class="row bg-dark text-center text-light">
+        <b>Developed by WALT.&.copy;2024.All Rights reserved</b>
+      </div>
+    </section>
+  </div>
+</body>
+
+</html>
